@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Imperial Time Luxe | Premium Timepieces</title>
+    <meta name="description" content="Explore elegant timepieces at Imperial Time Luxe. Contact us on WhatsApp to order.">
+    <link rel="icon" href="{{ url_for('static', filename='favicon.ico') }}">
+
+    <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+</head>
+
+<body>
+
+    <header class="navbar" id="top">
+        <div class="brand">
+        <h2>IMPERIAL TIME LUXE</h2>
+        <p>PREMIUM TIMEPIECES</p>
+        </div>
+        <a href="#collection" class="nav-button">Explore Collection</a>
+        <a href="#about" class="nav-button">About Us</a>
+        <a href="#contact" class="nav-button">Contact Us</a>
+        <a href="#faq" class="nav-button">FAQs</a>
+    </header>
+
+    <main>
+        <section class="hero">
+            <h1>Choose Your Watch</h1>
+            <p>Discover timeless style and premium craftsmanship.</p>
+        </section>
+
+        <section class="collection" id="collection">
+            <h2>The Collection</h2>
+            <p>Explore our premium timepieces</p>
+
+            <div class="product-grid">
+
+                <div class="product-card">
+                    <img src="{{ url_for('static', filename='images/watch-1.jpg') }}"
+                         alt="Classic Silver Watch">
+
+                    <h3>Classic Silver Watch</h3>
+                    <p>₹2,699</p>
+
+                    <a href="https://wa.me/8855070407?text=Hi%2C%20I%20want%20to%20order%20Classic%20Silver%20Watch"
+                       class="buy-button" target="_blank">
+                        Buy on WhatsApp
+                    </a>
+                </div>
+
+                <div class="product-card">
+                    <img src="{{ url_for('static', filename='images/watch-2.jpg') }}"
+                         alt="Luxury Silver Watch">
+
+                    <h3>Luxury Silver Watch</h3>
+                    <p>₹2,299</p>
+
+                    <a href="https://wa.me/8855070407?text=Hi%2C%20I%20want%20to%20order%20Luxury%20Silver%20Watch"
+                       class="buy-button" target="_blank">
+                        Buy on WhatsApp
+                    </a>
+                </div>
+
+            </div>
+        </section>
+        <section class="about" id="about">
+    <h2>About Imperial Time Luxe</h2>
+    <p>Discover refined style and timeless elegance with our curated collection of timepieces.</p>
+</section>
+<section class="contact" id="contact">
+    <h2>Contact Us</h2>
+    <p>Have a question? Get in touch with Imperial Time Luxe.</p>
+    <a href="https://wa.me/8855070407?text=Hi%2C%20I%20have%20a%20question%20about%20your%20watches"
+       class="buy-button" target="_blank">
+        Chat on WhatsApp
+    </a>
+</section>
+<a href="#top" class="back-to-top">Back to Top ↑</a>
+<section class="faq" id="faq">
+    <h2>Frequently Asked Questions</h2>
+
+    <div class="faq-item">
+    <details>
+        <summary>How can I order a watch?</summary>
+        <p>Choose a watch from our collection and tap “Buy on WhatsApp” to contact us.</p>
+    </details>
+</div>
+</section>
+    </main>
+<footer class="footer">
+    <p>© 2026 Imperial Time Luxe. All rights reserved.</p>
+    <p>Timeless style. Refined elegance.</p>
+</footer>
+</body>
+</html>
